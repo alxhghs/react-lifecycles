@@ -7,15 +7,11 @@ class Child extends Component {
   }
 
   componentWillMount() {
-    console.log('Child ' + this.props.childNum + ' componentWillMount')
+    console.log('Child ' + this.props.childNum + ' componentWillMount (to be deprecated)')
   }
 
   componentDidMount() {
     console.log('Child ' + this.props.childNum + ' componentDidMount')
-  }
-
-  shouldComponentUpdate() {
-    return true;
   }
 
   componentWillUnmount() {

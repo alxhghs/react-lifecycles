@@ -28,14 +28,16 @@
 }
 
 button {
-  border-radius: 5px;
   margin: 5px;
+  border-radius: 5px;
+  background: blue;
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
-.red-update {
-  color: red
-}
-
-.green-update {
-  color: green
+button:hover {
+  background: darkblue;
 }
